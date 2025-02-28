@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 40 px;
+}
+
+h1 {
+    text-align: center;
+    color:  black;
+}
+
+#dog-info {
+    margin-top: 20 px;
+    background-color: white;
+    padding: 10;
+    border-radius: 5 px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dog {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
+.dog h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.dog p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+}

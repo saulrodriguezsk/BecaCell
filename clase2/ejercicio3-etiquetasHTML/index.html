@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ejercicio Etiquetas HTML</title>
+        <link rel="tylesheet" href="styles.css">
+        <base target="_blank" href="https://tenor.com/es-419/search/homero-gifs" />
+        <h1>Ejercicio EtiquetasHTML</h1>
+        <style type="text/css">
+            p{ color: green}
+            body {
+            font-family: Arial, sans-serif;
+            margin: 5px;
+            }
+            pre {
+                background-color: #f4f4f4;
+                padding: 0px;
+                border-radius: 8px;
+                font-family: monospace;
+                white-space: pre-wrap; 
+                word-wrap: break-word;
+                border-left: 0px solid #3498db;
+        }
+        </style>
+        <p><b>Este es un ejercicio de uso de la etiquetas de <abbr title="Hypertext Markup Language">HTML</abbr></b></p>
+        <p dir="ltr">
+            Esta palabara arábica<bdi>ARABIC_PLACEHOLDER</bdi> se muestra automáticamente
+            de derecha a izquierda.
+        </p>
+    </head>
+    <body>
+        <h2>Ejemplo de etiqueta &lt;pre&gt;</h2>
+        <p>El siguiente bloque de código HTML usa la etiqueta <code>&lt;pre&gt;</code>:</p>
+
+        <pre>
+            <!DOCTYPE html>
+            <html>
+            <head>
+                <title>Etiqueta PRE</title>
+            </head>
+            <body>
+                <h1>Homero presidente</h1>
+            </body>
+            </html>
+        </pre>
+        <address>
+            Puedes ponerte en contacto con el autor en 
+            <a href="https://github.com/saulrodriguezsk">wwww.github.com/saulrodriguezsk</a>.<br />
+            Si ves algun prblema, porfavor
+            <a href="mailto:saul.rguez.24@gmail.com">contacta mi email</a>.<br />
+            Igualmente puedes visitar:<br />
+            Mozilla Foundation<br />
+            1981 Landings Drive<br />
+            Building K<br />
+            Mountain View, CA 94043-0801<br />
+            USA
+            <p>
+              http://this<wbr />.is<wbr />.a<wbr />.really<wbr />.long<wbr />.example<wbr />.com/With<wbr />
+              /deeper<wbr />/level<wbr />/pages<wbr />/deeper<wbr />/level<wbr />/pages<wbr />/deeper<wbr />
+              /level<wbr />/pages<wbr />/deeper<wbr />/level<wbr />/pages<wbr />/deeper<wbr />/level<wbr />/pages
+            </p>
+        </address>
+        <!--<main> es parecido al body?-->
+        <article class="presentation">
+            <h1>Presentación</h1>
+            <article class="name">
+                <h3>Nombre:</h3>
+                <p>Cristian Saùl Rodríguez Ramos</p>
+            </article>
+            <article class="age">
+            <h3>Edad:</h3>
+                <p>25 años</p>
+            </article>
+            <article class="born_day">
+                <h3>Fecha de nacimiento:</h3>
+                <p>24-junio-1999</p>
+            </hr>
+                <p>24-06-1999</p>
+                </article>
+            </article>
+        </article>        
+        <!--</main> es parecido al body?--> 
+
+        <aside>
+            <h3>Artículos Relacionados</h3>
+            <ul>
+                <li><a>Mejora en HTML</a></li>
+                <li><a>10 trucos para el desarrollo web</a></li>
+                <li><a>CSS EN 15 minutos</a></li>
+                <li><a>¿JavaScript el terror de los PHPEROS?</a></li>
+            </ul>
+        </aside>
+        <nav>
+            <ul>
+                <li><a href="#">Homero Simpson imagenes y gifs</a></li>
+            </ul>
+        </nav>
+        <section>
+            <button class="reply">Responder</button>
+        </section>
+        <blockquote cite='http://html.conclase.net/w3c/html401...def-BLOCKQUOTE'>
+            <p>
+              <q cite='http://html.conclase.net/w3c/html401...def-BLOCKQUOTE'>ETIQUETA q</q>
+            <strong>Nota.</strong> <mark>La URL previa</mark> es la <s>base</s> de la página</p>
+        </blockquote>
+        <dl>
+            <dt>Nota2</dt>
+            <dd>Otra forma de nota</dd>
+        </dl>
+        <ruby> 漢 <rt>Nota</rt> 字 <rt>ji</rt> </ruby>
+
+        <p><small>Tamaño pequeño</small></p>
+
+        <div class="news">
+            <a href="#">Nuevo presidente de EU</a>
+            <menu>
+              <li><button id="save">Guardar</button></li>
+              <li><button id="share">Compartir</button></li>
+            </menu>
+            <ol>
+                <li><button id="save">Guardar</button></li>
+                <li><button id="save">Guardar</button></li>
+               </ol>
+               <p>
+                Esto <u>es un párrafo dentro de un div,</u>
+                <span style="color: blue;"> y esto un span dentro de un párrafo. </span>
+              </p>
+        </div>
+        <p>Prueba de sub: La fórmula química de agua => H<sub>2</sub>O</p>
+        </hr>
+        <p>Prueba de sup: de la actualidad<sup>1</sup></p>
+        <p>
+          Prueba de var => <var>Cociente</var> es igual a 0.
+        </p>
+          
+        <figure>
+            <img src="https://imtexpublicidad.mx/wp-content/uploads/2021/04/Se-audaz-y-visionario-01.jpg"
+            alt="An usual case of Homero" />
+            <figcaption>El unusual caso de Homero presidente</figcaption>
+            <p><cite>Homero</cite> dijo:<samp> "pequeño demonio....no sé que hago aqui"</samp></p>
+        </figure>
+        <map name="primary">
+          <area
+            shape="circle"
+            coords="75,75,75"
+            href="index.html"
+            alt="Clic para ir a la izquierda"/>
+          <area
+            shape="circle"
+            coords="275,75,75"
+            href="index.html"
+            alt="Clic para ir a la derecha"/>
+        </map>
+        <img
+          usemap="#primary"
+          src="https://imtexpublicidad.mx/wp-content/uploads/2021/04/Se-audaz-y-visionario-01.jpg"
+          alt="350 x 150 pic"/>
+        
+        <audio src="https://pixabay.com/cs/sound-effects/search/ogg/" autoplay>
+          Your browser does not support the <code>audio</code> element.
+        </audio>
+
+        <video controls poster="/images/sample.gif">
+          <source src="sample.mp4" type="video/mp4" />
+          <source src="sample.ogv" type="video/ogv" />
+          <track kind="captions" src="sampleCaptions.vtt" srclang="en" />
+        </video>
+
+        <div class="tenor-gif-embed" data-postid="4722034242210669016" data-share-method="host" data-aspect-ratio="1.01382" data-width="100%">
+          <a href="https://tenor.com/view/homer-simpson-gif-4722034242210669016">Homer Simpson GIF</a>from 
+          <a href="https://tenor.com/search/homer+simpson-gifs">Homer Simpson GIFs</a></div> 
+        <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+        <video controls>
+          <source src="foo.webm" type="video/webm" />
+          <source src="foo.ogg" type="video/ogg" />
+          <source src="foo.mov" type="video/quicktime" />
+          Lo lamento; su navegador no soporta video HTML5.
+        </video>
+        
+        <template id="element-details-template">
+            <style>
+                details {
+                    font-family: "Open Sans Light", Helvetica, Arial;
+                }
+                .name {
+                  font-weight: bold;
+                  color: #217ac0;
+                  font-size: 120%;
+                }
+                h4 {
+                  margin: 10px 0 -8px 0;
+                }
+                h4 span {
+                  background: #217ac0;
+                  padding: 2px 6px 2px 6px;
+                }
+                h4 span {
+                  border: 1px solid #cee9f9;
+                  border-radius: 4px;
+                }
+                h4 span {
+                  color: white;
+                }
+                .attributes {
+                  margin-left: 22px;
+                  font-size: 90%;
+                }
+                .attributes p {
+                  margin-left: 16px;
+                  font-style: italic;
+                }
+            </style>
+            <details>
+              <summary>
+                <span>
+                  <code class="name"
+                    >&lt;<slot name="element-name">Requiere Nombre</slot>&gt;</code
+                  >
+                  <i class="desc"><slot name="description">necesita descripcion</slot></i>
+                </span>
+              </summary>
+              <div class="attributes">
+                <h4><span>Atributos</span></h4>
+                <slot name="attributes"><p>Ninguuno</p></slot>
+              </div>
+            </details>
+            <hr />
+        </template>
+
+        <table id="pintura">
+        <thead>
+          <tr>
+            <td>254099</td>
+            <td>Homero_al_Oleo</td>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- datos opcionales pueden incluirse aquí opcionalmente -->
+        </tbody>
+        </table>
+        <p>Pintura</p>
+        <ul>
+          <li><data value="35087987">Homero al oleo</data></li>
+        <ul>
+
+        <p>
+            El <dfn>HTML</dfn> es un <i>lenguaje</i> de marcado para <kbd>hipertextos.</kbd>
+        </p>
+        <p>
+         <em>La Pintura es de gran valor</em> pero lo es más <strong> por la importancia </strong> de que fue hecha en la misma casa blanca.
+        </p>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+        <article class="course_review">
+        <h2>Curso de HTML-CSS-JS</h2>
+        <section class="main_review">
+            <h3>Reseña principal</h3>
+            <p>Excelente curso, es demasiado rápido y con buena cantidad de tecnisismos, y aún así es muy claro!</p>
+        </section>
+        <section class="user_reviews">
+          <h3>Reseñas de usuarios</h3>
+        <article class="user_review">
+          <h4>¿Aterrado Potter?</h4>
+          <p>Me perdía por algunos momentos pero el instructor atendía las inquietudes</p>
+          <footer>
+            <p>
+              Publicado el
+              <time datetime="2025-02-28 22:00">28 de febrero de 2025</time>
+              por Saul Rodriguez.
+            </p>
+          </footer>
+        </article>
+
+    </body>
+</html>
